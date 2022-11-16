@@ -60,6 +60,8 @@ const squareSizeChange = e => {
     navLinks.square.style.marginRight = "0.1rem"
 
     const square = navLinks.square
+    // const line = document.querySelectorAll(".line1")
+    // line.style.color = "rgb(32, 31, 38)"
 
     const target = document.getElementById(e.target.id)
     if (navLinks.dnaBtn === target) {

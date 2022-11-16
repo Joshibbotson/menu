@@ -67,6 +67,14 @@ nav {
     padding-left: 13rem;
     position: absolute;
 }
+/* much more optimal way to achieve same thing I achieved with a ton of js. */
+/* nav:hover > * {
+    opacity: 0.3;
+}
+
+nav:hover > *:hover {
+    opacity: 1;
+} */
 
 a {
     color: inherit;

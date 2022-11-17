@@ -3,7 +3,7 @@ const navLinks = {
     approachBtn: document.getElementById("approachLink"),
     teamBtn: document.getElementById("teamLink"),
     companiesBtn: document.getElementById("companiesLink"),
-    square: document.querySelector(".square"),
+    square: document.querySelector(".square1"),
 }
 
 for (const key in navLinks) {

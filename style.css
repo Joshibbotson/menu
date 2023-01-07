@@ -132,4 +132,6 @@ a {
 
     cursor: pointer;
     transition: color 0.7s;
+
+    z-index: 999;
 }
